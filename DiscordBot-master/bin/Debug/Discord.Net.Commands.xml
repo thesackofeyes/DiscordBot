@@ -36,7 +36,7 @@
             <summary>
             Require that the bot account has a specified ChannelPermission.
             </summary>
-            <param name="permission">The ChannelPermission that the bot must have. Multiple permissions can be specified by ORing the permissions together.</param>
+            <param name="permission">The ChannelPermission that the bot must have. Multiple permissions can be test specified by ORing the permissions together.</param>
             <example>
             <code language="c#">
                 [Command("permission")]
