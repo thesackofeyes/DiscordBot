@@ -22,6 +22,6 @@ namespace DiscordBot.Modules
             waves.add("o/");
             Collections.shuffle(waves);
             return waves.get(0);
-    }
+        }
     }
 }
