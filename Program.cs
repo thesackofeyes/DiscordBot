@@ -29,7 +29,7 @@ namespace DiscordBot
                 .AddSingleton(commands)
                 .BuildServiceProvider();
 
-            string botToken = "NDY0OTM0Njg1OTQ0OTcxMjc0.DiIx7Q.QeUFVi50fSfbRNpfJe99sxupUNQ";
+            string botToken = "ASK ISAAC FOR TOKEN/USE YOUR OWN BOT USER";
 
             //event subscriptions
             client.Log += Log;
