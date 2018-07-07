@@ -12,15 +12,16 @@ namespace DiscordBot.Modules
         [Command("o/")]
         public async Task PingAsync()
         {
-            String[] waves = ["\o","o7","\o/"];
+            await ReplyAsync(getWave());
+        }
+        public String getWave(){
             ArrayList<String> waves = new ArrayList<String>();
             waves.add("o/");
-            waves.add("\o");
             waves.add("o7");
-            waves.add("\o/");
+            waves.add("o7");
+            waves.add("o/");
             Collections.shuffle(waves);
-            String reply = waves.get(0);
-            await ReplyAsync(reply);
-        }
+            return waves.get(0);
+    }
     }
 }
