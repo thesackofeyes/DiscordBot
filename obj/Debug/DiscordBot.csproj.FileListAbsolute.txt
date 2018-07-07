@@ -46,3 +46,5 @@ C:\Users\isaac\source\repos\DiscordBot\DiscordBot\bin\Debug\System.Interactive.A
 C:\Users\isaac\source\repos\DiscordBot\DiscordBot\obj\Debug\DiscordBot.csproj.CopyComplete
 C:\Users\isaac\source\repos\DiscordBot\DiscordBot\obj\Debug\DiscordBot.exe
 C:\Users\isaac\source\repos\DiscordBot\DiscordBot\obj\Debug\DiscordBot.pdb
+C:\Users\Isaac\DiscordBot\obj\Debug\DiscordBot.exe
+C:\Users\Isaac\DiscordBot\obj\Debug\DiscordBot.pdb
