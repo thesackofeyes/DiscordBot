@@ -29,7 +29,7 @@ namespace DiscordBot
                 .AddSingleton(commands)
                 .BuildServiceProvider();
 
-            string botToken = "ASK ISAAC FOR TOKEN/USE YOUR OWN BOT USER";
+            string botToken = "NDY0OTM0Njg1OTQ0OTcxMjc0.DiKwlQ.xErseM5m-K31-lmu3NykkrkewRo";
 
             //event subscriptions
             client.Log += Log;
@@ -65,7 +65,7 @@ namespace DiscordBot
 
             int argPos = 0;
 
-            if (message.HasStringPrefix("_",ref argPos) || message.HasMentionPrefix(client.CurrentUser, ref argPos)){
+            if (message.HasStringPrefix("_",ref argPos) || message.Equals("o/") || message.HasMentionPrefix(client.CurrentUser, ref argPos)){
                 var context = new SocketCommandContext(client, message);
 
                 var result = await commands.ExecuteAsync(context, argPos, services);
