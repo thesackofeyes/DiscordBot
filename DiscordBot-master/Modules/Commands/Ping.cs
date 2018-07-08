@@ -9,7 +9,7 @@ namespace DiscordBot.Modules
 {
     public class Ping : ModuleBase<SocketCommandContext>
     {
-        [Command("ping")]
+        [Command("pingg")]
         public async Task PingAsync()
         {
             await ReplyAsync("Hello World!");
